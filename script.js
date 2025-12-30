@@ -22,7 +22,7 @@ const cols = Math.floor(board.clientWidth / blockWidth);
 const rows = Math.floor(board.clientHeight / blockHeight);
 
 let gameInterval = null;
-let baseSpeed = 200; // Base speed in ms
+let baseSpeed = 350; // Base speed in ms
 let currentSpeed = baseSpeed;
 let speedIncreaseCounter = 0;
 let comboCounter = 0;
